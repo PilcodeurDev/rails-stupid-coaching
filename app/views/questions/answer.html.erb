@@ -1,0 +1,13 @@
+<br>
+<div class=" ml-5 border-start border-5 alert">
+  <%= params["question"] %>
+  <h3>- You</h3>
+</div>
+
+<br>
+<div class="alert alert-warning border-0 border-start border-5">
+  <%= @answer %>
+  <h3>- Your coach</h3>
+</div>
+
+<%= link_to "Ask a new question", root_path %>
